@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sportech Gear</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+<!--
+-->
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:sportechgear00@gmail.com">sportechgear00@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:3147459641">3147459641</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="mailto:sportechgear00@gmail.com" target="_blank">
+                        <i class="fab fa-google fa-sm fa-fw me-2"></i>
+                      </a>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h2 align-self-center " href="index.html">
+                
+                    <img class="bg-black far" src="assets/img/fa.png" alt="">
+                
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="camisas.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- visualizador -->
+    <section class="bg-light">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 mt-5">
+                    <div class="card mb-3" id="product-viewer">
+                        <img id="large-image" class="card-img img-fluid" src="" alt="Imagen">
+                    </div>
+                    
+                </div>
+                <!-- col end -->
+                <div class="col-lg-7 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <p id="product-name" class="h2">Active Wear</p>
+                               <div class="d-flex align-items-center ">$ <p id="product-precio" class="h3  pt-2">25.00</p></div>
+                            <h6>Descripción</h6>
+                            <p id="product-des">La camiseta del Real Madrid es un símbolo icónico en el mundo del fútbol, representando uno de los clubes más exitosos y prestigiosos. Tradicionalmente blanca, la camiseta del Real Madrid refleja una imagen de pureza y grandeza, complementada con detalles dorados o plateados que añaden un toque de elegancia. La prenda está diseñada con materiales técnicos avanzados, como poliéster de alta calidad, que aseguran comodidad y rendimiento durante el juego.</p>
+                            <form action="" method="GET" class="pt-3">
+                                <input type="hidden" name="product-title" value="Activewear">
+                                <div class="row align-items-center">
+                                    <div class="col-auto ">
+                                        <ul class="list-inline  align-items-center d-flex">
+                                            <li class="list-inline-item">Talla :
+                                                <input type="hidden" name="product-size" id="product-size" value="S">
+                                            </li>
+                                            <a id="product-talla">
+                                                    
+                                            </a>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col-auto">
+                                        <ul class="list-inline ">
+                                            <li class="list-inline-item text-right">
+                                                Cantidad :
+                                                <input type="hidden" name="product-quanity" id="product-quanity" value="1">
+                                            </li>
+                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
+                                            <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row pb-3">
+                                    <div class="col d-grid">
+                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Añadir al carrito</button>
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- visualizador fin -->
+    <!-- Start Article -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-left p-2 pb-3">
+                <h4>Màs Productos</h4>
+            </div>
+
+            <!--Start Carousel Wrapper-->
+            <div id="carousel-related-product">
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/alhi.png" id="main-product-image">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="140.000" href="tienda.html" data-name="Al-Hilal" data-image="assets/img/camisas/alhi.png"
+                                    data-talla="M/L/X/XL"  data-des="La camiseta del Al-Hilal, uno de los clubes más destacados de Arabia Saudita, es conocida por su vibrante color azul. La camiseta suele ser de un azul intenso con detalles en blanco o plata, que a menudo incluyen el logo del patrocinador y el escudo del club en el pecho. Confeccionada con materiales técnicos como el poliéster, la prenda está diseñada para ofrecer comodidad y rendimiento tanto en el campo como en las gradas. Cada temporada puede presentar variaciones en el diseño y detalles, pero siempre mantiene el característico color azul que representa la identidad y el prestigio del club."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Al-Hilal</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>M/L/X/XL</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$120.000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/3.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="200.000" href="tienda.html" data-name="Puma Future   " data-image="assets/img/guayos/3.png"
+                                        data-talla="38/39/40/41"  data-des="Los Puma Future son una línea de guayos de fútbol que se destacan por su enfoque en la flexibilidad y el ajuste personalizado. Introducidos como parte de la oferta innovadora de Puma, los Future cuentan con una parte superior de tejido elástico y sin cordones, que se adapta al pie y ofrece un ajuste ceñido y cómodo. Esta tecnología permite un control superior del balón y una sensación más cercana en el campo"
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Puma Future</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>38/39/40/41</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$220.000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/10.png">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Predator Ultra" data-image="assets/img/guantes/guantes.png" 
+                                        data-talla="8/9/10/11"  data-des="
+                                            Los guantes Adidas Predator Ultra son una pieza avanzada de equipo de protección para porteros, diseñados para ofrecer un rendimiento óptimo en el campo. Incorporan tecnología de vanguardia como el látex URG 2.0, que proporciona un excelente agarre en diferentes condiciones climáticas, mejorando la seguridad al atrapar el balón. Además, presentan un diseño ergonómico y un ajuste ceñido que asegura comodidad y flexibilidad, permitiendo una mayor movilidad en las manos."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Predator Ultra</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>8/9/10/11</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$120.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/NikeMercurial.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Nike Mercurial " data-image="assets/img/guayos/NikeMercurial.jpg"
+                                    data-talla="38/38/40/41"  data-des="Los Nike Mercurial son una línea emblemática de calzado de fútbol que se destaca por su enfoque en la velocidad y el rendimiento, Su diseño está optimizado para proporcionar una combinación de ligereza, ajuste ceñido y tracción excepcional. Los guayos suelen contar con una parte superior ligera y flexible, además de una suela que facilita movimientos explosivos y cambios rápidos de dirección."
+                                            ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Nike Mercurial</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li class="">38/39/40/41</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$150.000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/PumaUltra.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="150.000" href="tienda.html" data-name="Puma Ultra" data-image="assets/img/guantes/PumaUltra.jpg"
+                                        data-talla="8/9/10/11"  data-des="
+                                            Los guantes Puma Ultra están diseñados para proporcionar un alto rendimiento y una excelente agilidad en el campo. Equipados con una palma de látex de calidad, estos guantes ofrecen un agarre superior y control del balón en diversas condiciones. Su diseño ligero y flexible asegura un ajuste ceñido que permite una mayor libertad de movimiento y comodidad. Además, los Puma Ultra suelen incluir características de protección en los dedos y un sistema de ajuste en la muñeca para un fit personalizado. Son ideales para porteros que buscan un guante que combine alta tecnología con un diseño innovador para mejorar su rendimiento en el campo."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Puma Ultra</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>8/9/10/11</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$150.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/Milan.jpg">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="AC Milan" data-image="assets/img/camisas/Milan.jpg"
+                                    data-talla="M/L/X/XL"  data-des="La camiseta del AC Milan es icónica en el fútbol internacional, destacándose por sus tradicionales rayas verticales rojas y negras. Esta combinación de colores simboliza la pasión y la historia del club. Confeccionada con materiales técnicos como el poliéster, la camiseta ofrece comodidad y rendimiento en el campo. Además del escudo del club en el pecho, el diseño suele incluir el logo del patrocinador y, en algunas temporadas, detalles adicionales que reflejan la evolución del estilo del equipo. A pesar de las variaciones anuales, el diseño mantiene siempre la esencia distintiva del AC Milan."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">AC Milan</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li>M/L/X/XL</li>
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <p class="text-center mb-0">$110.00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Article -->
+
+
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-4 pt-3">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo"><img class=" far" src="assets/img/fa.png" alt=""></h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Tv. 93 #34-99, Sotomayor
+                          
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:3147459641">3147459641</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:sportechgear00@gmail.com">sportechgear00@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Camisas</a></li>
+                        <li><a class="text-decoration-none" href="#">Guayos</a></li>
+                        <li><a class="text-decoration-none" href="#">Guantes</a></li>
+                    
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="#">Tienda</a></li>
+                        <li><a class="text-decoration-none" href="#">Contactos</a></li>
+                        <li><a class="text-decoration-none" href="#">Productos</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+
+    
+        </footer>
+
+    <a href="https://wa.me/3147459641" class="whatsapp-button" target="_blank" title="Chatea con nosotros en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <!-- End Script -->
+
+    <!-- Start Slider Script -->
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $('#carousel-related-product').slick({
+            infinite: true,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            dots: true,
+            autoplay: true, // Activa el autoplay
+            autoplaySpeed: 3000, // Velocidad en milisegundos (3 segundos)
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+    </script>
+    
+    <!-- End Slider Script -->
+
+</body>
+
+</html>

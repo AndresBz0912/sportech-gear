@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sportech Gear</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+
+-->
+</head>
+
+<body>
+    
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:sportechgear00@gmail.com">sportechgear00@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:3147459641">3147459641</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="mailto:sportechgear00@gmail.com" target="_blank">
+                        <i class="fab fa-google fa-sm fa-fw me-2"></i>
+                      </a>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h2 align-self-center " href="index.html">
+                
+                    <img class="bg-black far" src="assets/img/fa.png" alt="">
+                
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="camisas.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Start Content -->
+    <div class="container py-5" >
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Categorías</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="showCategory('camisas')">
+                            Camisas
+                        </a>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="showCategory('guayos')">
+                            Guayos
+                        </a>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#"  onclick="showCategory('guantes')">
+
+                            Guantes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-9" >
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline shop-top-menu pb-3 pt-1">
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Todo para</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Hombres y</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none" href="#">Mujeres</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas"  >
+                            <div class="card rounded-0 product" data-name="Arsenal"  data-image="assets/img/camisas/arsenal.jpg">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/arsenal.jpg" alt="Arsenal" >
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="Arsenal" data-image="assets/img/camisas/arsenal.jpg"
+                                            data-talla="M/L/X/XL"
+                                            data-des="La camiseta del Arsenal es conocida por su distintivo color rojo y detalles en blanco. Históricamente, el rojo ha sido el color principal, con el diseño complementado por detalles en blanco en las mangas y el cuello. Las camisetas modernas del Arsenal están confeccionadas con materiales técnicos avanzados como el poliéster, que proporcionan comodidad y transpirabilidad. A menudo presentan el escudo del club en el pecho y el logo del patrocinador en el centro. Cada temporada puede incluir variaciones en el diseño, pero siempre mantiene una conexión con la rica tradición y la identidad visual del club."><i class="fas fa-cart-plus"></i></a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html"  class="h3 text-decoration-none">Arsenal</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/Boca.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Boca Juniors" data-image="assets/img/camisas/Boca.jpg"
+                                        data-talla="M/L/X/XL" data-des="La camiseta de Boca Juniors es emblemática en el fútbol argentino y mundial, conocida por su diseño distintivo en azul y amarillo. Tradicionalmente, la prenda es azul con una franja horizontal amarilla que atraviesa el pecho, representando los colores del club. Hecha de materiales técnicos como poliéster, la camiseta ofrece comodidad y durabilidad. Además del escudo del club en el lado izquierdo del pecho, a menudo lleva el logo del patrocinador en la parte frontal. El diseño puede variar ligeramente cada temporada, pero siempre mantiene los colores y elementos distintivos que simbolizan la rica historia y la identidad del club."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Boca Juniors</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/juve.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="Juventus" data-image="assets/img/camisas/juve.jpg"
+                                        data-des="La camiseta de la Juventus es conocida por sus distintivas rayas verticales en blanco y negro, que representan la tradición y el prestigio del club italiano. Confeccionada con materiales técnicos como el poliéster, la camiseta proporciona comodidad y rendimiento durante el juego. Suele llevar el escudo del club en el pecho, así como el logo del patrocinador en la parte frontal. A lo largo de las temporadas, el diseño puede variar ligeramente, pero siempre mantiene las icónicas rayas y el estilo elegante que reflejan la historia y la identidad de la Juventus."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Juventus</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/alhi.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="140.000" href="tienda.html" data-name="Al-Hilal" data-image="assets/img/camisas/alhi.png"
+                                        data-talla="M/L/X/XL" data-des="La camiseta del Al-Hilal, uno de los clubes más destacados de Arabia Saudita, es conocida por su vibrante color azul. La camiseta suele ser de un azul intenso con detalles en blanco o plata, que a menudo incluyen el logo del patrocinador y el escudo del club en el pecho. Confeccionada con materiales técnicos como el poliéster, la prenda está diseñada para ofrecer comodidad y rendimiento tanto en el campo como en las gradas. Cada temporada puede presentar variaciones en el diseño y detalles, pero siempre mantiene el característico color azul que representa la identidad y el prestigio del club."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Al-Hilal</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$140.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/Milan.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                    
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="AC Milan" data-image="assets/img/camisas/Milan.jpg"
+                                        data-talla="M/L/X/XL" data-des="La camiseta del AC Milan es icónica en el fútbol internacional, destacándose por sus tradicionales rayas verticales rojas y negras. Esta combinación de colores simboliza la pasión y la historia del club. Confeccionada con materiales técnicos como el poliéster, la camiseta ofrece comodidad y rendimiento en el campo. Además del escudo del club en el pecho, el diseño suele incluir el logo del patrocinador y, en algunas temporadas, detalles adicionales que reflejan la evolución del estilo del equipo. A pesar de las variaciones anuales, el diseño mantiene siempre la esencia distintiva del AC Milan."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">AC Milan</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/Psg.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="París Saint-Germain" data-image="assets/img/camisas/Psg.jpg"
+                                        data-talla="M/L/X/XL" data-des="La camiseta del París Saint-Germain (PSG) es conocida por su elegante diseño en azul marino, a menudo complementado con una franja vertical roja y blanca en el centro del pecho. Este diseño refleja la sofisticación y el estilo del club francés. Hecha de materiales técnicos como el poliéster, la camiseta garantiza comodidad y rendimiento durante el juego. El escudo del club y el logo del patrocinador suelen estar en posiciones prominentes en la prenda. Aunque el diseño puede variar ligeramente cada temporada, mantiene un equilibrio entre la modernidad y la rica tradición del PSG."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">París Saint-Germain</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/real.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="Real Madrid" data-image="assets/img/camisas/real.png"
+                                        data-talla="M/L/X/XL" data-des="La camiseta del Real Madrid es un símbolo icónico en el mundo del fútbol, representando uno de los clubes más exitosos y prestigiosos. Tradicionalmente blanca, la camiseta del Real Madrid refleja una imagen de pureza y grandeza, complementada con detalles dorados o plateados que añaden un toque de elegancia. La prenda está diseñada con materiales técnicos avanzados, como poliéster de alta calidad, que aseguran comodidad y rendimiento durante el juego."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Real Madrid</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/sele2.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Colombia" data-image="assets/img/camisas/sele2.png"
+                                            data-talla="M/L/X/XL" data-des="
+                                            La camiseta de la selección de fútbol de Colombia es conocida por su vibrante color amarillo, que simboliza el orgullo y la identidad del país. Suele presentar detalles en azul y rojo, los colores de la bandera colombiana. Hecha de materiales técnicos como el poliéster, la camiseta ofrece comodidad y transpirabilidad durante el juego. Además del escudo de la Federación Colombiana de Fútbol en el pecho, la prenda a menudo lleva el logo del patrocinador en la parte frontal. El diseño puede variar con cada torneo, pero siempre mantiene la esencia y los colores que representan a Colombia en el ámbito internacional."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Colombia</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="camisas">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/camisas/Spurs.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="180.000" href="tienda.html" data-name="Tottenham" data-image="assets/img/camisas/Spurs.jpg"
+                                             data-talla="M/L/X/XL" data-des="La camiseta del Tottenham Hotspur es reconocida por su diseño en blanco, con detalles en azul marino. Esta camiseta, confeccionada con materiales técnicos como el poliéster, está diseñada para ofrecer comodidad y rendimiento en el campo. Suele llevar el escudo del club en el pecho y el logo del patrocinador en la parte frontal. A lo largo de las temporadas, el diseño puede presentar variaciones, pero siempre mantiene los colores y el estilo que reflejan la identidad y la tradición del Tottenham Hotspur"
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">
+                                    Tottenham</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>M/L/X/XL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">$180.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="productos">
+                    <div class="col-md-4 "  >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes" > 
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/guantes.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Predator Ultra" data-image="assets/img/guantes/guantes.png" 
+                                            data-des="
+                                            Los guantes Adidas Predator Ultra son una pieza avanzada de equipo de protección para porteros, diseñados para ofrecer un rendimiento óptimo en el campo. Incorporan tecnología de vanguardia como el látex URG 2.0, que proporciona un excelente agarre en diferentes condiciones climáticas, mejorando la seguridad al atrapar el balón. Además, presentan un diseño ergonómico y un ajuste ceñido que asegura comodidad y flexibilidad, permitiendo una mayor movilidad en las manos."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Predator Ultra</a>
+                                <p class="text-center mb-0">$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/3.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Predator " data-image="assets/img/guantes/3.jpg"
+                                            data-talla="8/9/10/11" data-des="Los guantes Adidas Predator son reconocidos por su tecnología avanzada y su rendimiento confiable para porteros. Diseñados para ofrecer un excelente agarre y control, estos guantes suelen presentar un látex de alta calidad en la palma, que mejora la tracción y el manejo del balón, incluso en condiciones húmedas. La estructura del guante está optimizada para proporcionar un ajuste ceñido y cómodo, con características como un diseño ergonómico y zonas de flexión que facilitan el movimiento natural de la mano. Además, los guantes Predator a menudo incluyen elementos de protección y soporte para reducir el riesgo de lesiones en los dedos. "
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Predator</a>
+
+                                <p class="text-center mb-0">$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/2.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="130.000" href="tienda.html" data-name="Nike Tempo" data-image="assets/img/guantes/2.jpg"
+                                        data-talla="8/9/10/11" data-des="Los guantes Nike Tiempo son una opción destacada para porteros que buscan un equilibrio entre agarre, comodidad y durabilidad. Estos guantes presentan una palma de látex de alta calidad que proporciona un excelente agarre y control del balón, incluso en condiciones húmedas. El diseño de los Nike Tiempo está orientado a ofrecer un ajuste ergonómico y cómodo, con características como una muñeca ajustable y un diseño flexible que se adapta a los movimientos naturales de la mano. Además, suelen incorporar elementos de refuerzo y protección en áreas clave para mejorar la seguridad y la resistencia. "
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none"> Nike Tempo</a>
+
+                                <p class="text-center mb-0">$130.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/NikeMatch.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                    
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" href="tienda.html" data-name="Nike Match" data-image="assets/img/guantes/NikeMatch.jpg"
+                                            data-talla="8/9/10/11" data-des="Los guantes  Nike Match están diseñados para jugadores de fútbol que buscan una opción accesible y funcional para proteger sus manos. Estos guantes suelen presentar una palma de látex que ofrece un buen agarre y amortiguación, adecuado para condiciones de juego variadas. El diseño es sencillo y práctico, con un ajuste que proporciona comodidad sin sacrificar el rendimiento. La estructura de los guantes incluye un cierre de muñeca ajustable para asegurar un fit firme y personalizado."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Nike Match</a>
+    
+                                <p class="text-center mb-0">$130.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/7.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Adidas Future" data-image="assets/img/guantes/7.jpg"
+                                            data-talla="8/9/10/11" data-des="
+                                            Los guantes Adidas Future están diseñados para ofrecer un rendimiento avanzado y una gran comodidad para los porteros. Equipados con látex de alta calidad en la palma, estos guantes proporcionan un excelente agarre y control del balón, incluso en condiciones adversas. La tecnología de ajuste suele incluir un diseño ergonómico que se adapta a la forma de la mano, mejorando la flexibilidad y el confort. Además, los guantes Adidas Future suelen contar con características de protección y soporte para los dedos, reduciendo el riesgo de lesiones."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Adidas Future</a>
+                
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/9.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="100.000" href="tienda.html" data-name="Guantes Umbro" data-image="assets/img/guantes/9.jpg"
+                                            data-talla="8/9/10/11"data-des="Los guantes Umbro están diseñados para ofrecer una combinación de confort y rendimiento a porteros de todos los niveles. Suelen presentar una palma de látex que proporciona un buen agarre y tracción, mejorando la capacidad de atrapar y controlar el balón en diversas condiciones. El diseño de los guantes incluye un ajuste cómodo con cierre de muñeca ajustable para asegurar un fit firme y personalizado. Los guantes Umbro también tienden a incorporar elementos de refuerzo y protección en áreas clave para mayor durabilidad y seguridad. Son una opción sólida para porteros que buscan una protección confiable sin características excesivas ni un precio elevado."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Guantes Umbro</a>
+
+                                <p class="text-center mb-0">$100.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/6.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+         
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="150.000" href="tienda.html" data-name="Adidas f50" data-image="assets/img/guantes/6.jpg"
+                                            data-talla="8/9/10/11" data-des="Los guantes Adidas f50 están diseñados para ofrecer un alto rendimiento en el campo, combinando tecnología avanzada con un diseño optimizado para porteros. Equipados con una palma de látex de calidad, estos guantes proporcionan un excelente agarre y control del balón, incluso en condiciones húmedas. Su diseño suele incluir un ajuste ergonómico con elementos de flexión que permiten una mayor movilidad y comodidad en la mano. Además, los guantes Adidas f50 a menudo cuentan con características de refuerzo y protección en las áreas clave para mejorar la durabilidad y reducir el riesgo de lesiones. "
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Adidas f50</a>
+                               
+                                <p class="text-center mb-0">$150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/PumaUltra.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="150.000" href="tienda.html" data-name="Puma Ultra" data-image="assets/img/guantes/PumaUltra.jpg"
+                                            data-talla="8/9/10/11" data-des="
+                                            Los guantes Puma Ultra están diseñados para proporcionar un alto rendimiento y una excelente agilidad en el campo. Equipados con una palma de látex de calidad, estos guantes ofrecen un agarre superior y control del balón en diversas condiciones. Su diseño ligero y flexible asegura un ajuste ceñido que permite una mayor libertad de movimiento y comodidad. Además, los Puma Ultra suelen incluir características de protección en los dedos y un sistema de ajuste en la muñeca para un fit personalizado. Son ideales para porteros que buscan un guante que combine alta tecnología con un diseño innovador para mejorar su rendimiento en el campo."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Puma Ultra</a>
+                               
+                                <p class="text-center mb-0">$150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                        <div class="card mb-4 product-wap rounded-0" data-category="guantes">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guantes/8.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="120.000" href="tienda.html" data-name="Adidas Predator Match" data-image="assets/img/guantes/8.jpg"
+                                            data-talla="8/9/10/11" data-des="
+                                            Los guantes Adidas Predator Match están diseñados para ofrecer un equilibrio entre agarre, comodidad y durabilidad. Equipados con una palma de látex que proporciona un buen control del balón y un agarre confiable en diversas condiciones, estos guantes son ideales tanto para jugadores de nivel amateur como profesional. El diseño incluye un ajuste ergonómico que asegura un fit cómodo y seguro, con un cierre de muñeca ajustable para un soporte adicional. Los Predator Match también cuentan con refuerzos en áreas clave para aumentar la durabilidad y proteger contra lesiones. Son una opción versátil para porteros que buscan rendimiento y fiabilidad en su equipo."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Adidas Predator Match</a>
+                         
+                                <p class="text-center mb-0">$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos"  >
+                            <div class="card rounded-0 product" data-name="Arsenal" data-image="assets/img/guayos/5.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/5.png" alt="Arsenal" >
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Adidas Predator" data-image="assets/img/guayos/5.png"
+                                            data-talla="38/39/40/41" data-des="Los Adidas Predator son una línea icónica de calzado de fútbol que ha sido popular entre los jugadores durante décadas, El modelo Predator ofrece una combinación única de control y potencia, con características como un diseño de empeine texturizado para mejorar el agarre del balón, y una suela diseñada para proporcionar tracción óptima en el campo."
+                                            ><i class="fas fa-cart-plus"></i></a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html"  class="h3 text-decoration-none">Adidas Predator</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                    
+                                </ul>
+                                
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos"  >
+                            <div class="card rounded-0 product" data-name="Arsenal"  data-image="assets/img/guayos/NikeMercurial.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/NikeMercurial.jpg" alt="Arsenal" >
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Nike Mercurial " data-image="assets/img/guayos/NikeMercurial.jpg"
+                                            data-talla="38/39/40/41" data-des="Los Nike Mercurial son una línea emblemática de calzado de fútbol que se destaca por su enfoque en la velocidad y el rendimiento, Su diseño está optimizado para proporcionar una combinación de ligereza, ajuste ceñido y tracción excepcional. Los guayos suelen contar con una parte superior ligera y flexible, además de una suela que facilita movimientos explosivos y cambios rápidos de dirección."
+                                            ><i class="fas fa-cart-plus"></i></a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html"  class="h3 text-decoration-none">Nike Mercurial</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                    
+                                </ul>
+                                
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/NikePhantom.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Nike Phantom" data-image="assets/img/guayos/NikePhantom.jpg"
+                                        data-talla="38/39/40/41" data-des="Los Nike Phantom son una línea de calzado de fútbol diseñada para ofrecer un equilibrio entre control y precisión en el campo. Introducidos por Nike como parte de su oferta de fútbol, los Phantom se caracterizan por su enfoque en el toque del balón y la estabilidad. Los modelos suelen presentar una parte superior con tecnología de ajuste dinámico, como el Flyknit o el NikeSkin, que proporciona un ajuste ceñido y una sensación de proximidad al balón. La suela está diseñada para ofrecer tracción y soporte en diferentes tipos de superficies, facilitando movimientos ágiles y rápidos."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Nike Phantom</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/PumaEvolution.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Puma Evolution" data-image="assets/img/guayos/PumaEvolution.jpg"
+                                        data-talla="38/39/40/41" data-des="Los Puma Evolution son una línea de guayos de fútbol que se destaca por su combinación de diseño moderno y tecnología innovadora. Esta serie está orientada a proporcionar una gran comodidad y rendimiento en el campo. Los Puma Evolution suelen presentar una parte superior suave y flexible que se ajusta al pie para ofrecer un excelente control del balón y una sensación de cercanía. La suela de estos guayos está diseñada para proporcionar tracción óptima y estabilidad, adaptándose a diferentes tipos de superficies."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Puma Evolution</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/PumaKing.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="200.000" href="tienda.html" data-name="Puma King" data-image="assets/img/guayos/PumaKing.jpg"
+                                        data-talla="38/39/40/41" data-des="Los Puma King son una línea clásica de guayos de fútbol, conocidos por su elegancia y durabilidad, los Puma King han mantenido su reputación a lo largo de los años como uno de los modelos más icónicos y respetados en el mundo del fútbol. Se caracterizan por su parte superior de cuero de alta calidad, que proporciona un ajuste cómodo y un toque refinado con el balón. La suela de los Puma King está diseñada para ofrecer una excelente tracción y estabilidad en el campo. Su diseño atemporal y su rendimiento confiable han hecho de los Puma King una opción favorita tanto para jugadores profesionales como para aficionados que valoran la tradición y la calidad en su calzado de fútbol"
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Puma King</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$200.00</p>
+                            </div>
+                        </div>
+                    </div>                 
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/3.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="200.000" href="tienda.html" data-name="Puma Future   " data-image="assets/img/guayos/3.png"
+                                        data-talla="38/39/40/41" data-des="Los Puma Future son una línea de guayos de fútbol que se destacan por su enfoque en la flexibilidad y el ajuste personalizado. Introducidos como parte de la oferta innovadora de Puma, los Future cuentan con una parte superior de tejido elástico y sin cordones, que se adapta al pie y ofrece un ajuste ceñido y cómodo. Esta tecnología permite un control superior del balón y una sensación más cercana en el campo"
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Puma Future</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$220.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/PumaUltimate.jpg">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Puma Ultimate" data-image="assets/img/guayos/PumaUltimate.jpg"
+                                        data-talla="38/39/40/41"  data-des="Los Puma Ultimate son una línea de guayos de fútbol diseñada para ofrecer un equilibrio óptimo entre velocidad y control. Con un diseño enfocado en el rendimiento, los Ultimate presentan una parte superior ligera y transpirable que se ajusta al pie para mejorar el toque y la precisión. La tecnología de la suela está orientada a proporcionar una tracción excepcional y soporte en diversas superficies, facilitando movimientos rápidos y cambios de dirección. La combinación de ligereza, ajuste y tracción hace que los Puma Ultimate sean una opción popular para jugadores que buscan maximizar su velocidad y agilidad en el campo."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Puma Ultimate</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/6.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Adidas f50" data-image="assets/img/guayos/6.png"
+                                        data-talla="38/39/40/41" data-des="Los Adidas f50 son una línea icónica de guayos de fútbol, conocidos por su enfoque en la velocidad y el rendimiento. Introducidos por primera vez en 2004, los f50 se destacan por su diseño ligero y aerodinámico, lo que facilita movimientos rápidos y cambios de dirección explosivos. Su parte superior generalmente está hecha de materiales sintéticos avanzados que ofrecen un ajuste ceñido y un excelente control del balón. La suela está diseñada para proporcionar tracción óptima en diferentes tipos de superficies, apoyando la agilidad y la velocidad. "
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Adidas f50</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4 " >
+                        <div class="card mb-4 product-wap rounded-0"  data-category="guayos">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/guayos/2.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <a  class="add-to-cart btn btn-success text-white mt-2" data-precio="250.000" href="tienda.html" data-name="Adidas Copa" data-image="assets/img/guayos/2.png"
+                                        data-talla="38/39/40/41" data-des="Los Adidas Copa son una línea clásica de guayos de fútbol que han sido sinónimos de calidad y durabilidad desde su introducción en 1982. Conocidos por su diseño atemporal y su construcción robusta, los Copa presentan una parte superior de cuero de alta calidad que ofrece un ajuste cómodo y un excelente toque con el balón. La suela de los guayos está diseñada para proporcionar tracción y estabilidad en el campo, adaptándose a diferentes superficies."
+                                        ><i class="fas fa-cart-plus"></i></a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="tienda.html" class="h3 text-decoration-none">Adidas Copa</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>38/39/40/41</li>
+                                </ul>
+
+                                <p class="text-center mb-0">$250.00</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- Start Brands -->
+    <section class="bg-light py-5">
+        <div class="container my-4">
+            <div class="row text-center py-3">
+                <div class="col-lg-10 m-auto">
+                    <h1 class="h1">Nuestras Marcas Destacadas</h1>
+                    <p>
+                        Descubre nuestra selección exclusiva de marcas de camisetas de fútbol, donde calidad y pasión se unen. Cada una de estas marcas ha sido cuidadosamente elegida para ofrecerte lo mejor en estilo y confort.
+
+                    </p>
+                </div>
+                <div class="col-lg-9 m-auto tempaltemo-carousel">
+                    <div class="row d-flex flex-row">
+                        <!--Carousel Wrapper-->
+                        <div class="col">
+                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
+                                <!--Slides-->
+                                <div class="carousel-inner product-links-wap" role="listbox">
+
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End First slide-->
+                                </div>
+                                <!--End Slides-->
+                            </div>
+                        </div>
+                        <!--End Carousel Wrapper-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Brands-->
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-4 pt-3">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo"><img class=" far" src="assets/img/fa.png" alt=""></h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Tv. 93 #34-99, Sotomayor
+                          
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:3147459641">3147459641</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:sportechgear00@gmail.com">sportechgear00@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Camisas</a></li>
+                        <li><a class="text-decoration-none" href="#">Guayos</a></li>
+                        <li><a class="text-decoration-none" href="#">Guantes</a></li>
+                    
+                    </ul>
+                </div>
+    
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="#">Tienda</a></li>
+                        <li><a class="text-decoration-none" href="#">Contactos</a></li>
+                        <li><a class="text-decoration-none" href="#">Productos</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+
+        </footer>
+    <!-- End Footer -->
+    <a href="https://wa.me/3147459641" class="whatsapp-button" target="_blank" title="Chatea con nosotros en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- End Script -->
+</body>
+
+</html>
